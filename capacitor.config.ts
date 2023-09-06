@@ -7,7 +7,7 @@ const config: CapacitorConfig = {
   bundledWebRuntime: false,
   plugins: {
     CapacitorUpdater : {
-      version: "1.0.0",
+      version: "1.0.1",
       autoUpdate: true,
     }
   }

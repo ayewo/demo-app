@@ -11,8 +11,12 @@
           <ion-title size="large">Tab 1</ion-title>
         </ion-toolbar>
       </ion-header>
-      Version 1.0.0
+      Version 1.0.1
       <ion-button expand="block" color="primary" @click="updateNow">Update now</ion-button>
+      <picture>
+        <source srcset="/assets/images/hello.webp" type="image/webp" />
+        <img src="/assets/images/hello.png" alt="Hello image" />
+      </picture>
     </ion-content>
   </ion-page>
 </template>
